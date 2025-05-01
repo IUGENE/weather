@@ -16,7 +16,7 @@ function App() {
 
   const fetchWeather = async (city) => {
     try {
-      const url = `http://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_API_KEY}&q=${city}&days=7&aqi=yes&alerts=yes`
+      const url = `https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_API_KEY}&q=${city}&days=7&aqi=yes&alerts=yes`
       const response = await fetch(url)
       const data = await response.json()
       setWeatherData(data)
