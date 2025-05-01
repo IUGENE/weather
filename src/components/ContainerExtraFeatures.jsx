@@ -1,4 +1,4 @@
-import RainbowSlider from "./RainbowSlider"
+import RainbowSlider from "./Rainbowslider"
 import compass from "../assets/compass.png"
 import styles from "./Container.module.css"
 
